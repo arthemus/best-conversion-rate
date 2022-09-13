@@ -1,0 +1,73 @@
+.eslintcache
+
+**/node_modules/**
+
+/built/local/**
+
+/tests/**
+
+/lib/**
+
+/src/lib/*.generated.d.ts
+
+/scripts/*.js
+
+/scripts/eslint/built/**
+
+/internal/**
+
+/coverage/**
+
+package-lock.json
+
+.idea
+
+yarn.lock
+yarn-error.log
+
+lib-cov
+
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.swp
+
+pids
+logs
+results
+tmp
+
+# Build
+public/css/main.css
+
+# Coverage reports
+coverage
+
+# API keys and secrets
+.env
+
+# Editors
+.idea
+*.iml
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Ignore built ts files
+dist/**/*
+
+# ignore yarn.lock
+yarn.lock
+
+output/**
+
+cache/**
+
+.vscode/**
+
+src/**/*.js

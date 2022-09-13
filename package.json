@@ -1,0 +1,26 @@
+{
+  "name": "currency-conversion",
+  "version": "1.0.0",
+  "description": "Finding the best possible conversion rate through currencies",
+  "main": "src/index.ts",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "start": "tsc --build && node dist/index.js",
+    "test": "npx jest"
+  },
+  "keywords": [
+    "currency-conversion",
+    "dijkstra"
+  ],
+  "author": "Arthemus",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node-fetch": "~2.6.2",
+    "node-fetch": "~2.6.7",
+    "ts-jest": "~28.0.8",
+    "typescript": "~4.8.2"
+  }
+}
